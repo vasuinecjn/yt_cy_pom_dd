@@ -1,0 +1,36 @@
+[
+    {
+        "testName": "add enabled admin user",
+        "isSkip": false,
+        "tag": "smoke",
+        "login": {
+            "userName": "Admin",
+            "password": "admin123"
+        },
+        "newUserDetails": {
+            "userRole": "Admin",
+            "employeeName": "Ravi M B",
+            "status": "Enabled",
+            "userName": "vasuinecjn",
+            "password": "testCase@143",
+            "confirmPassword": "testCase@143"
+        }
+    },
+    {
+        "testName": "add enabled Ess user",
+        "isSkip": false,
+        "tag": "smoke",
+        "login": {
+            "userName": "Admin",
+            "password": "admin123"
+        },
+        "newUserDetails": {
+            "userRole": "ESS",
+            "employeeName": "Ravi M B",
+            "status": "Enabled",
+            "userName": "vasuinecjn",
+            "password": "testCase@143",
+            "confirmPassword": "testCase@143"
+        }
+    }
+]

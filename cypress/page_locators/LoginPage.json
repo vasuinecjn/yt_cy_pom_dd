@@ -1,0 +1,5 @@
+{
+    "userNameTextBox": "input[name='username']",
+    "passwordTextBox": "input[name='password']",
+    "loginButton": "button[type='submit']"
+}
