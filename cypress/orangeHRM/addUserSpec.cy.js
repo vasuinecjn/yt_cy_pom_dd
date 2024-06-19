@@ -3,6 +3,7 @@ import LoginPage from "../page_objects/LoginPage.js";
 describe("Add user tests", ()=> {
 
     const testCases = require("../test_case_files/adduserTestCases.json")
+    const testData = Cypress.env("data")
     var loginPage;
 
     beforeEach("Visit to orange hrm site for each test case", ()=> {
@@ -15,9 +16,9 @@ describe("Add user tests", ()=> {
 
         it(testCase.testName, ()=> {
             loginPage
-            .login(testCase.login)
+            .login(testData.login[testCase.login])
             .navigateToAdminPage()
-            .addNewuser(testCase.newUserDetails)
+            .addNewuser(testData.newUserDetails[testCase.newUserDetails])
         })
     })
 

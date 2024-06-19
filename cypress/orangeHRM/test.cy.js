@@ -1,7 +1,6 @@
 describe("login tests", ()=> {
 
     const testCases = require("../fixtures/login.json")
-    loginPage;
     beforeEach("Visit organge hrm for each test case", ()=> {
         cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
     })

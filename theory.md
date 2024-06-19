@@ -1,11 +1,3 @@
-# yt_cy_pom_dd
-
-# Installation and dependencies:
-npm install cypress --save -dev
-npm install -D cypress-xpath
-npm install -D @faker-js/faker
-npx cypress open
-
 
 Cypress and Selenium are both popular tools for automated testing of web applications, but they have different architectures, features, and use cases. Here's a detailed comparison:
 

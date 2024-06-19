@@ -23,3 +23,9 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     // failing the test
     return false
   })
+
+// before("Running globle before to read the test data", () => {
+//   cy.log('I run before test in every spec file!!!!!!')
+//   var data = require("../fixtures/data.json")
+//   cy.wrap(data).as("vasu")
+// })

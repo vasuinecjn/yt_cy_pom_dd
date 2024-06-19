@@ -7,4 +7,7 @@ module.exports = defineConfig({
     },
     specPattern: '**/*.cy.js',
   },
+  env: {
+    data: require("./cypress/fixtures/data.json")
+  },
 });
