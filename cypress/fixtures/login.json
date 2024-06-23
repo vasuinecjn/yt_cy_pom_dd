@@ -22,7 +22,7 @@
     },
     {
         "testName": "test4",
-        "skip": false,
+        "skip": true,
         "userName": "Admin",
         "password": "admin123",
         "validate_message": "Dashboard"

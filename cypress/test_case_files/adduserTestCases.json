@@ -4,13 +4,13 @@
         "isSkip": false,
         "tag": "smoke",
         "login": "adminCredentials",
-        "newUserDetails": "adminEnabledUser"
+        "addUser": "adminEnabledUser"
     },
     {
         "testName": "add enabled Ess user",
         "isSkip": false,
         "tag": "smoke",
         "login": "adminCredentials",
-        "newUserDetails": "ESSEnabledUser"
+        "addUser": "ESSEnabledUser"
     }
 ]

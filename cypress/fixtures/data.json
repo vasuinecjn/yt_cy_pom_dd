@@ -9,7 +9,7 @@
             "password": "admin123"
         }
     },
-    "newUserDetails": {
+    "addUser": {
         "adminEnabledUser": {
             "userRole": "Admin",
             "employeeName": "Ravi M B",

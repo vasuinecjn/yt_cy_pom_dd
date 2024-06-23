@@ -18,7 +18,7 @@ describe("Add user tests", ()=> {
             loginPage
             .login(testData.login[testCase.login])
             .navigateToAdminPage()
-            .addNewuser(testData.newUserDetails[testCase.newUserDetails])
+            .addNewuser(testData.addUser[testCase.addUser])
         })
     })
 
