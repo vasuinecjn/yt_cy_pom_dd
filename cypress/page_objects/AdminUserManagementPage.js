@@ -34,7 +34,7 @@ class AdminUserManagementPage extends Page {
         cy.get(this.getLocator("confirmPassword")).type(addUser.confirmPassword);
         cy.wait(2000)
         cy.get(this.getLocator("addUserSave")).click();
-        cy.wait(2000)
+        cy.wait(4000)
         cy.url().should("contain", "viewSystemUsers");
         return this;
     }
